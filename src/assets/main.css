@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+body{
+  
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('images/scenery.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form{
+  background:transparent;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  box-shadow: 2px 2px 20px white;
+}
+
+.form form{
+  width:300px;
+}
+
+.input-box{
+  width:100%;
+}
+
+.input-box input{
+  width: 100%;
+  padding: 10px 50px 10px 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+  outline: none;
+  background: transparent;
+}
+
+.input-box input::placeholder{
+  color:white;
+}
+
+.icon{
+  fill:white;
+  width:20px;
+  position: relative;
+  left:88%;
+  transform: translateY(-30px);
+}
+
+
+button{
+  width:80%;
+  margin:10px 30px;
+  padding:10px;
+  font-size:20px;
+  border-radius: 30px;
+  border:1px solid white;
+  background:transparent;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover{
+  background: white;
+  color:black;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  margin:10px auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
